@@ -19,9 +19,16 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-
 	implementation 'org.springframework.security:spring-security-crypto:6.0.1'
+	implementation 'com.github.puddingspudding:predicates:0.4'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	implementation 'io.springfox:springfox-boot-starter:3.0.0'
+	implementation 'io.springfox:springfox-swagger2:3.0.0'
+	implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+	implementation 'javax.servlet:javax.servlet-api:4.0.1'
+
+
 }
 
 tasks.named('test') {
